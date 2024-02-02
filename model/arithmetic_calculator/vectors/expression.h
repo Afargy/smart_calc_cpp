@@ -1,0 +1,11 @@
+#ifndef CPP3_SMARTCALC_V2_0_1_SRC_MODEL_ARITHMETIC_CALCULATOR_VECTORS_EXPRESSION_H_
+#define CPP3_SMARTCALC_V2_0_1_SRC_MODEL_ARITHMETIC_CALCULATOR_VECTORS_EXPRESSION_H_
+
+#include "../token/token.h"
+#include "vector.h"
+
+namespace s21 {
+class Expression : public Vector<Token> {};
+}  // namespace s21
+
+#endif  // CPP3_SMARTCALC_V2_0_1_SRC_MODEL_ARITHMETIC_CALCULATOR_VECTORS_EXPRESSION_H_

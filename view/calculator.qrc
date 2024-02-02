@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="calculator_view_style">calculator_view/style.css</file>
+    </qresource>
+</RCC>

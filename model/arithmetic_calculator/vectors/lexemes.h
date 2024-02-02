@@ -1,0 +1,12 @@
+#ifndef CPP3_SMARTCALC_V2_0_1_SRC_MODEL_ARITHMETIC_CALCULATOR_VECTORS_LEXEMES_H_
+#define CPP3_SMARTCALC_V2_0_1_SRC_MODEL_ARITHMETIC_CALCULATOR_VECTORS_LEXEMES_H_
+
+#include <string>
+
+#include "vector.h"
+
+namespace s21 {
+class Lexemes : public Vector<std::string> {};
+}  // namespace s21
+
+#endif  // CPP3_SMARTCALC_V2_0_1_SRC_MODEL_ARITHMETIC_CALCULATOR_VECTORS_LEXEMES_H_
